@@ -6,7 +6,7 @@ import svgrPlugin from "vite-plugin-svgr";
 
 export default defineConfig({
   input: "./index.tsx",
-  external: /\.(?:scss|woff2)$/,
+  external: /\.(?:css|scss|woff2)$/,
   output: {
     dir: "build",
     sourcemap: true,

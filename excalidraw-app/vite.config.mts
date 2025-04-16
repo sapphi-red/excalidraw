@@ -62,7 +62,7 @@ export default defineConfig({
     outDir: "build",
     rollupOptions: {
       input: "./index.tsx",
-      external: /\.(?:scss|woff2)$/,
+      external: /\.(?:css|scss|woff2)$/,
     },
     sourcemap: true,
     // don't auto-inline small assets (i.e. fonts hosted on CDN)
