@@ -69,5 +69,5 @@ export default defineConfig({
     assetsInlineLimit: 0,
   },
   plugins: [react(), svgrPlugin()],
-  publicDir: "../public",
+  publicDir: false,
 });
